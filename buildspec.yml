@@ -11,7 +11,7 @@ phases:
       - yum install -y maven
   build:
     commands:
-      - maven -v
+      - mvn -v
       - java -version
       - echo building the justiceleague-tracker
       - mvn install
