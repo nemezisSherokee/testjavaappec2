@@ -8,6 +8,7 @@ phases:
       java: corretto11
   build:
     commands:
+      - mvn -v
       - java -version
       - echo building the justiceleague-tracker
       - mvn install
